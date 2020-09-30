@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "goldie";
+  src: url("../../../fonts/Goldie\ Rainbow.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "eye-spy";
+  src: url("../../../fonts/Eye\ Spy.otf") format("truetype"),
+    url("../../../fonts/Eye\ Spy\ Italic.otf") format("truetype");
+}
+
+h1 {
+  text-align: center;
+  font-family: "goldie";
+  font-size: 6em;
+}
+
+h3 {
+  font-family: "eye-spy";
+  font-size: 4em;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.home {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.boutons {
+  display: flex;
+  justify-content: space-around;
+}
